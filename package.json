@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "test:ts": "node --expose-gc -r ts-node/register --",
+    "test:js": "npm run build && node --expose-gc --"
   },
   "keywords": [],
   "author": "",
