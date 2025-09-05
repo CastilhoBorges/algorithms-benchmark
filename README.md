@@ -133,9 +133,3 @@ npm install -D typescript ts-node @types/node
 ## License
 
 MIT License
-
----
-
-This README is fully in **English**, explains how to use your benchmark utility, generate charts, and run tests in TypeScript or JavaScript.
-
-If you want, I can also **create a shorter "quickstart" version** with copy-paste example for beginners. Do you want me to do that?
